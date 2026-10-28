@@ -2,7 +2,7 @@ class Charger{
 
 
 
-public static void main(String[] args){
+public static void main(String[] h){
 String type = "c pin";
 //System.out.println(type);
 
