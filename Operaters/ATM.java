@@ -3,17 +3,19 @@ class ATM{
 static public void main(String[] args){
 long pinCode = 64792073l;
 //System.out.println(pinCode);
-
-ATM.checkTheValidPerson(pinCode);
+long code = 657321l;
+System.out.println(ATM.checkTheValidPerson(pinCode));
 }
-static void checkTheValidPerson(long code){
+static String checkTheValidPerson(long code){
 System.out.println(code);
 if (code == 74782350){
-	System.out.println("this code bvelongs to person 1");
+	return "dhiuhi ";
 }else if (code == 64792073l){
-	System.out.println("this code belongs to person 2");
+	return  "this code belongs to person 2";
 }else {
-	System.out.println("its not match to any person");
+	return "its not match to any person";
 }
+
+
 }
 }
